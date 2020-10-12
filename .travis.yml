@@ -4,7 +4,7 @@
   "os": ["linux"],
   "dist": "xenial",
   "node_js": ["stable"],
-  "script": ["npm install", "npm test", "npm run build"],
+  "script": ["npm install", "npm run build", "npm test"],
   "deploy":
     [
       {
