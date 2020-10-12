@@ -4,12 +4,12 @@ node_js:
 
 script: -npm install
   -npm test
-  -npm build
+  -npm run build
 
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: timer-app2020.surge.sh
+  domain: react-timer2020.surge.sh
   project: ./build
 
 on:
