@@ -10,7 +10,7 @@ script:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: react-timer2020.surge.sh
+  domain: modern-branch.surge.sh
   project: ./build/
 
 on:
