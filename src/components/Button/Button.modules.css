@@ -1,0 +1,35 @@
+.reset{
+    background: rgb(240, 163, 201);
+    border: 2px solid rgb(252, 162, 162);
+    box-shadow: 2px 2px 10px rgb(230, 137, 135);
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    }
+    
+    .start{
+     background: rgb(179, 179, 241);
+     border: 2px solid rgb(108, 178, 236);
+     box-shadow: 2px 2px 10px rgb(123, 148, 231);
+     margin: 10px;
+     height: 30px;
+     width: 80px;
+     border-radius: 5px;
+     transition: all ease-in-out 1s;
+     cursor: pointer;
+    }
+    
+    .stop{
+    background: rgb(230, 208, 208);
+    border: 2px solid rgb(236, 108, 108);
+    box-shadow: 2px 2px 10px rgb(248, 227, 194);
+    margin: 10px;
+     height: 30px;
+     width: 80px;
+     border-radius: 5px;
+    }
+    
+    .box :hover{
+       transform: scale(1.5);
+    }
